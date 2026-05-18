@@ -1,0 +1,21 @@
+accelerate>=1.0
+datasets>=2.18
+huggingface-hub>=0.24
+ipykernel>=6.0
+jupyter>=1.0
+matplotlib>=3.8
+nltk>=3.8
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+scipy>=1.11
+seaborn>=0.13
+torch>=2.2
+tqdm>=4.66
+transformers>=4.44
+
+# Optional for `copying/main.py --model mamba`:
+# mamba-ssm
+
+# Optional for cramming with `--use_flash_attention_2`:
+# flash-attn

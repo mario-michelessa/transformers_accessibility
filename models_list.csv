@@ -1,0 +1,11 @@
+Model name,Link to HF,"Params, B",Input hidden size,Vocabulary size,"Max capacity, tokens (Kuratov)",L_1 (max),L_2 (max),L_inf (max),Avg cosine,Min cosine,Slope exp
+Pythia-160M,EleutherAI/pythia-160m,0.16,768,50304,787,7373,271,22.45,0.982,0.890,90.4
+Pythia-410M,EleutherAI/pythia-410m,0.41,1024,50304,1049,2903,113,43.44,0.383,-0.196,112.4
+Pythia-1B,EleutherAI/pythia-1b,1.00,2048,50304,2048,4138,116,57.38,0.393,-0.290,287.4
+Qwen2-0.5B,Qwen/Qwen2.5-0.5B,0.50,896,151936,--,5075,326,226.75,0.628,-0.224,71.0
+Qwen2-1.5B,Qwen/Qwen2.5-1.5B,1.50,1536,151936,--,4078,237,155.75,0.740,-0.099,79.6
+Llama-3.2-1B,meta-llama/Llama-3.2-1B,1.00,2048,128256,1931,3880,107,20.91,0.413,-0.051,137.8
+Gemma-3-270m,google/gemma-3-270m,0.27,640,262144,--,1050,51,9.95,0.056,-0.141,44.54
+Pythia-1.4B,EleutherAI/pythia-1.4b,1.40,2048,50304,2098,4199,120,66.94,0.400,-0.233,261.4
+Pythia-2.8B,EleutherAI/pythia-2.8b,2.80,2560,50304,2623,4712,119,41.56,0.357,-0.262,197.9
+Pythia-6.9B,EleutherAI/pythia-6.9b,6.90,4096,50304,--,5818,115,42.16,0.349,-0.295,283.55
